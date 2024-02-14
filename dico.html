@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Disco</title>
+</head>
+
+<body>
+    <script>
+        color = "purpal"
+        function shuffleColor() {
+            if (color == "purpal")
+                color = "green"
+            else if (color == "green")
+                color = "red"
+            else if (color == "red")
+                color = "blue"
+            document.body.style.backgroundColor = color
+        }
+        setInterval(shuffleColor, 100)
+    </script>
+</body>
+
+</html>
